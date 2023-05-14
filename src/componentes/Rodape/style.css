@@ -1,0 +1,56 @@
+.logo-rede{
+    width: 50px;
+    margin: 0 5px;
+}
+
+.redes{
+    padding: 20px 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outra-limitacao{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.rede-p {
+    padding: 30px 0;
+    color: #8a8fa3;
+    line-height: 30px;
+}
+
+.yellow{
+    color: rgb(255, 208, 0);
+}
+
+.cred{
+    padding-bottom: 30px;
+    color: #8a8fa3;
+    text-align: center;
+}
+
+.modo-claro{
+    background-color: white;
+}
+
+.modo-escuro{
+    background-color: #252525;
+}
+
+@media(max-width:1124px){
+    footer{
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:375px){
+    .logo-rede{
+        width: 40px;
+    }
+}
