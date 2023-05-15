@@ -3,8 +3,8 @@ import './style.css'
 
 
 export default function Topo(props){
-    const iconLight='../../assets/sun.png'
-    const iconDark='../../assets/moon.png'
+    const iconLight='./assets/sun.png'
+    const iconDark='./assets/moon.png'
 
     const topoDark = 'topo-dark'
     const topoLight = 'topo'
@@ -14,7 +14,7 @@ export default function Topo(props){
 
         <div className={props.atual? topoLight : topoDark}>
             <header>
-                <img className="element" src="../../assets/logo.png"/>
+                <img className="element" src="./assets/logo.png"/>
                 <button onClick={props.trocar}><img className="element2" src={props.atual ? iconDark : iconLight}/></button>
 
                 
